@@ -5,8 +5,9 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
 document.addEventListener('DOMContentLoaded', function() {
     //write code to get elements with 'nav-links' ID elements and store them as navLinks
+    const navLinks = document.getElementById('nav-links');
     //write code to get elements with 'expand-btn' Class elements and store them as navLinks
-
+    const expandButtons = document.quertSelectorAll('.expand-btn');
 
     expandButtons.forEach(function(btn) {
         btn.addEventListener('click', function() {
